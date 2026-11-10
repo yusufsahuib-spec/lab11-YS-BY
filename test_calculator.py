@@ -33,21 +33,21 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
 
     def test_logarithm(self): # 3 assertions
-        self.assertAlmostEqual(logarithm((2,8),3))
-        self.assertAlmostEqual(logarithm((3,9),2))
-        self.assertAlmostEqual(logarithm((10,1000),3))
+        self.assertAlmostEqual(logarithm(2,8),3)
+        self.assertAlmostEqual(logarithm(3,9),2)
+        self.assertAlmostEqual(logarithm(10,1000),3)
 
     def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
         with self.assertRaises(ValueError):
-            logarithm(0, 5)
+            logarithm(5, 0)
     # ##########################
     
     ######## Partner 1
-    # def test_log_invalid_argument(self): # 1 assertion
+    def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     logarithm(0, 5)
+         with self.assertRaises(ValueError):
+              logarithm(0, 5)
     #     fill in code
 
     # def test_hypotenuse(self): # 3 assertions
