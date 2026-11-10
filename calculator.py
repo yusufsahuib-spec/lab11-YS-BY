@@ -4,7 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-#check for cdfghj
 
 #https://github.com/yusufsahuib-spec/lab11-YS-BY/blob/main/calculator.py
 # Partner 1: Yusuf Shauib
