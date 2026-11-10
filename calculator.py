@@ -1,3 +1,6 @@
+#https://github.com/yusufsahuib-spec/lab11-YS-BY/blob/main/calculator.py
+# Partner 1: Yusuf Shauib
+# Partner 2: Benjamin Yodfat
 """
 calculator.py
 - Defines functions used to create a simple calculator
