@@ -5,9 +5,23 @@ calculator.py
 One function per operation, in order.
 """
 #check for cdfghj
-import math
+
 
 # First example
+import math
+
+def square_root(a):
+    try:
+        if a<0:
+            raise ValueError("Integrand cannot be a negative number")
+        return math.sqrt(a)
+    except ValueError:
+        raise ValueError("Integrand cannot be a negative number")
+
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
 def add(a, b): 
     return a+b
 
