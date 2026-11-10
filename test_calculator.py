@@ -2,6 +2,8 @@ import unittest
 from calculator import *
 
 #https://github.com/yusufsahuib-spec/lab11-YS-BY/blob/main/calculator.py
+# Partner 1: Yusuf Shauib
+# Partner 2: Benjamin Yodfat
 class TestCalculator(unittest.TestCase):
     # Partner 2
     def test_add(self): # 3 assertions
