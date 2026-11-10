@@ -4,7 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
-#check for chnage
+
 import math
 
 # First example
