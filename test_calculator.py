@@ -53,12 +53,12 @@ class TestCalculator(unittest.TestCase):
     def test_hypotenuse(self): # 3 assertions
         self.assertAlmostEqual(hypotenuse(3,4),5 )
         self.assertAlmostEqual(hypotenuse(5,12), 13)
-        self.assertAlmostEqual(hypotenuse((-3,4), 5)
+        self.assertAlmostEqual(hypotenuse(-3,4), 5)
 
     def test_sqrt(self): # 3 assertions
-        self.assertAlmostEqual(hypotenuse((25)),5)
-        self.assertAlmostEqual(hypotenuse((2.25)),1.5)
-        self.assertAlmostEqual(hypotenuse((0)), 0)
+        self.assertAlmostEqual(square_root(25),5)
+        self.assertAlmostEqual(square_root(2.25),1.5)
+        self.assertAlmostEqual(square_root(0), 0)
         with self.assertRaises(ValueError):
             square_root(-4)
 
