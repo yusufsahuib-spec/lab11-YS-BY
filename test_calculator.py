@@ -2,26 +2,33 @@ import unittest
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
-    ######### Partner 2
-    # def test_add(self): # 3 assertions
-    #     fill in code
+    # Partner 2
+    def test_add(self): # 3 assertions
+        assert add(2,3)==5
+        assert add(0, 2)==2
+        assert add(-1, 7)==6
 
-    # def test_subtract(self): # 3 assertions
-    #     fill in code
-    # ##########################
+    def test_subtract(self): # 3 assertions
+        assert subtract(5,4)==1
+        assert subtract(3, 7) == -4
+        assert subtract(2, 0) == 2
 
     ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     fill in code
+    def test_multiply(self): # 3 assertions
+        assert multiply(3,5)==15
+        assert multiply(2, 1) == 2
+        assert multiply(5, 0) == 0
 
-    # def test_divide(self): # 3 assertions
-    #     fill in code
+    def test_divide(self): # 3 assertions
+        assert divide(6,3)==2
+        assert divide(8, 2) == 4
+        assert divide(-12, 3) == -4
     # ##########################
 
     ######## Partner 2
-    # def test_divide_by_zero(self): # 1 assertion
+    #def test_divide_by_zero(self): # 1 assertion
     #     # call division function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
+        #with self.assertRaises(ZeroDivisionError):
     #     #     div(0, 5)
     #     fill in code
 
